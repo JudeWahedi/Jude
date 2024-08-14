@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Aisha</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday Aisha!</h1>
+        <p>This is a special website just for you.</p>
+    </header>
+    
+    <div id="animation-container">
+        <!-- 4D Animation with Three.js will go here -->
+    </div>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-slider">
+            <img src="7.jpg" alt="Image 1">
+            <img src="7.jpg" alt="Image 2">
+            <!-- More images can be added here -->
+        </div>
+    </section>
+    
+    <section id="videos">
+        <h2>Videos</h2>
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- More videos can be added here -->
+    </section>
+    
+    <section id="messages">
+        <h2>Leave a Message</h2>
+        <form id="chat-form" action="send_message.php" method="POST">
+            <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="chat-messages">
+            <!-- Chat messages will be displayed here -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Jude. All rights reserved.</p>
+    </footer>
+    
+    <audio id="background-music" autoplay loop>
+        <source src="j.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="1.js"></script>
+</body>
+</html>
